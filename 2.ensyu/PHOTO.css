@@ -1,0 +1,22 @@
+section {  text-align: center; }
+
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  justify-content: space-around;
+}
+
+.flex-item{
+  margin: 0 1em 1em;
+  flex-basis:30%;
+}
+
+@media screen and (max-width: 780px){
+
+  .flex-container{
+    flex-direction: column;
+  }
+}
